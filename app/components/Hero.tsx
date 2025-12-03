@@ -1,6 +1,6 @@
 export default function Hero() {
   return (
-    <section className="relative bg-black text-white pt-38 pb-32">
+    <section className="relative bg-black text-white pt-40 pb-32">
       {/* Glow background */}
       <div className="absolute top-0 left-1/2 -translate-x-1/2 w-[400px] h-[400px] rounded-full bg-blue-500/20 blur-3xl -z-10"></div>
 
