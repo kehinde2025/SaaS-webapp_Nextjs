@@ -1,12 +1,16 @@
-import "./globals.css";
 import Navbar from "./components/Navbar";
+import { ReactNode } from "react";
 
-export default function RootLayout({ children }) {
+interface RootLayoutProps {
+  children: ReactNode;
+}
+
+export default function RootLayout({ children }: RootLayoutProps) {
   return (
     <html lang="en">
       <body className="bg-black text-white">
         <Navbar />
-        <main className="pt-24">{children}</main>
+        {children}
       </body>
     </html>
   );
